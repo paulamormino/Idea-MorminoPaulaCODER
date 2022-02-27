@@ -8,6 +8,7 @@ html{
 body{
     background-image: url(imagenes/fondo2.png);
 }
+
 @font-face {
     font-family: outfit;
     src: url(fontfamily/Outfit.ttf);
@@ -96,11 +97,13 @@ body{
 /* actividades */
 .container1{
     width: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
     color: yellow;
     text-align: center;
     height: auto;
-    margin-bottom: 1%;
 }
+
 .container1 img{
     height: 380px;
     border-bottom: black 2px solid;
@@ -108,13 +111,12 @@ body{
 .container1 p{
     font-size: 18px;
     margin-top: 5%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 3px black;
+    
 }
 .container1:hover{
     transform: scale(1.10);
     transition: all 1s;
-    filter: contrast(100%);
+    filter:grayscale(100%);
 }
 .boton span{
     color: white !important;
@@ -128,6 +130,8 @@ body{
 }
 .container2{
     width: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
     color: yellow;
     text-align: center;
     height: auto;
@@ -139,22 +143,18 @@ body{
 .container2 p{
     font-size: 18px;
     margin-top: 5%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 3px black;
+    
 }
-.container2 p span{
-    color: white !important;
-    text-shadow: 2px 2px 3px black;
-    font-size: 15px;
-}
+
 .container2:hover{
     transform: scale(1.10);
     transition: all 1s;
-    filter: contrast(100%);
+    filter:grayscale(100%);
 }
 .container3{
     width: 25%;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
     color: yellow;
     text-align: center;
     height: auto;
@@ -166,25 +166,20 @@ body{
 .container13 p{
     font-size: 18px;
     margin-top: 5%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 3px black;
-}
-.container3 p span{
-    color: white !important;
-    text-shadow: 2px 2px 3px black;
-    font-size: 15px;
 }
 .container3:hover{
     transform: scale(1.10);
     transition: all 1s;
-    filter: contrast(100%);
+    filter:grayscale(100%);
 }
 .container4{
     width: 25%;
-    
-    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
+    color: rgba(255, 255, 0, 0.932);
     text-align: center;
     height: auto;
+    
 }
 .container4 img{
     height: 380px;
@@ -193,53 +188,83 @@ body{
 .container4 p{
     font-size: 18px;
     margin-top: 5%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 3px black;
-}
-.container4 p span{
-    color: white !important;
-    text-shadow: 2px 2px 3px black;
-    font-size: 15px;
+    
 }
 .container4:hover{
     transform: scale(1.10);
     transition: all 1s;
-    filter: contrast(100%);
+    filter:grayscale(100%);
 }
 .container-fluid{
     height: auto;
     margin-bottom: 1% black;
 }
+.container5{
+    width: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
+    color: yellow;
+    text-align: center;
+    height: auto;
+}
+
+.container5 img{
+    height: 380px;
+    border-bottom: black 2px solid;
+}
+.container5 p{
+    font-size: 18px;
+    margin-top: 5%;
+    
+}
+.container5:hover{
+    transform: scale(1.10);
+    transition: all 1s;
+    filter: grayscale(100%);
+}
 /* merch */
 .contproducto1{
     width: 33%;
-    
-    color: yellow;
+    color: black;
     text-align: center;
     height: auto;
     margin-left: 4%;
     margin-right: -4%;
     margin-bottom: 1%;
+    font-family: fantasy;
+
 }
 .contproducto1 img{
     height: 380px;
     border: black 2px solid;
 }
 .contproducto1 span{
-    color: white !important;
+   
     text-shadow: 2px 2px 3px black;
     font-size: 15px;
     background-color: rgba(0, 0, 0, 0.541) !important;
 }
 .boton{
-    background-color: black;
-    border: black 2px solid;
 }
 .producto1{
     color: black;
     display: flex;
-    text-align: center;
+    text-align: center;   
+}
+.boton1{
+    width: auto;
+}
+.btn{
+    color: yellow !important;
+    border: black 2px solid;
     
+}
+.btn:hover{
+    background-color: black;
+    border: yellow 2px solid;
+}
+.label label{
+    background-color: black !important;
 }
 /* formulario de contacto */
 .contacto{
@@ -269,6 +294,29 @@ body{
 }
 .celular a{
     color: white;
+}
+
+/* info de contacto y mas info */
+.contacto1{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.795);
+    color: rgb(3, 3, 3);
+    text-align: center;
+    height: auto;
+}
+.card-text span{
+    text-transform: uppercase;
+}
+.card-body{
+    background-color: rgba(255, 255, 0, 0.808) !important;
+
+}
+.botoninteres{
+    text-align: center;
+    background-color: black;
+    color: yellow;
 }
 
 /* modificacion de pantalla responsive  */
